@@ -1,0 +1,22 @@
+package elynx-seq
+
+authors    = "Matthew-Mosior"
+version    = "0.1.0"
+readme     = "README.md"
+
+homepage   = "https://github.com/Matthew-Mosior/idris2-elynx-seq"
+sourceloc  = "https://github.com/Matthew-Mosior/idris2-elynx-seq.git"
+bugtracker = "https://github.com/Matthew-Mosior/idris2-elynx-seq/issues"
+
+license    = "BSD-3-Clause License"
+brief      = "Idris (Idris2) port of the Haskell elynx-seq library."
+
+modules = ELynx.Character.AminoAcid,
+          ELynx.Character.AminoAcidI,
+          ELynx.Character.AminoAcidS,
+          ELynx.Character.AminoAcidX,
+          ELynx.Character.Nucleotide,
+          ELynx.Character.NucleotideI,
+          ELynx.Character.NucleotideX
+
+sourcedir = "src"
